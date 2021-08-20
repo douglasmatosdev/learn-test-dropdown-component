@@ -10,7 +10,7 @@ function App() {
       {selectedItem && <div>Seu item: {selectedItem}</div>}
 
       <Dropdown
-        title="Selecione um item da lista"
+        title="Selecione um item"
         options={['Mamão', 'Uva', 'Laranja']}
         onSelect={setSelectedItem}
       />

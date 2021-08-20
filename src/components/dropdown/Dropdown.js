@@ -4,10 +4,10 @@
  * 3. Quando selecinar um item do menu, fechar o dropdown e indicar qual opção foi selecionada
  */
 
-import React from "react"
+import React from 'react';
 
 export const Dropdown = ({ title, options, onSelect }) => {
-    const [isOpen, setIsOpen] = React.useState(false)
+    const [isOpen, setIsOpen] = React.useState(false);
 
     const handleSelection = (option) => {
         onSelect(option)
