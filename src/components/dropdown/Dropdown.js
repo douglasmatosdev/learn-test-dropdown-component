@@ -4,6 +4,7 @@
  * 3. Quando selecinar um item do menu, fechar o dropdown e indicar qual opção foi selecionada
  */
 
+import './Dropdown.css';
 import React from 'react';
 
 export const Dropdown = ({ title, options, onSelect }) => {
